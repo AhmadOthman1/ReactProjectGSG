@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import WeatherSection from "./components/WeatherSection"
+import logo from "./logo.svg";
+import "./App.css";
+import WeatherSection from "./components/WeatherSection";
 
 function App() {
-  return (
-    <div className="App">
+  return {
+    /* <div className="App">
       <WeatherSection/>
-    </div>
-  );
+    </div>*/
+  };
 }
 
 export default App;
