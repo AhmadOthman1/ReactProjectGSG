@@ -1,0 +1,37 @@
+.DaysWeatherSection{
+    width: 100%;
+}
+.date{
+    background-color: #2d303d;
+    width: 100%;
+    padding: 0.5rem 0px 0.5rem 0;
+    margin: 0;
+    text-align: center;
+}
+.tempImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+.temp{
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+    margin: 0;;
+}
+.cloudsImage{
+    width: 100px;
+    height: 100px;
+}
+.dataIcon{
+    width: 30px;
+    height: 30px;
+}
+.Data{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}

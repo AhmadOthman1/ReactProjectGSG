@@ -1,0 +1,26 @@
+.cityNameInput{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+.weatherSearch{
+    width:50%;
+}
+.topBanner{
+    position: relative;
+}
+.searchButton{
+    position: absolute;
+    top: 5px;
+    right: -65px;
+    bottom: 5px;
+    padding: 0 40px;
+    border: none;
+    background: #009ad8;
+    border-radius: 30px;
+    color: white;
+}

@@ -1,0 +1,53 @@
+.TodaysWeatherSection{
+   width: 100%;
+}
+.day{
+    background-color: #2d303d;
+    width: 100%;
+    padding: 0.5rem 0px 0.5rem 20px;
+    margin: 0;
+    text-align: left;
+}
+.DateDay{
+    display: flex;
+}
+.date{
+    background-color: #2d303d;
+    width: 100%;
+    padding: 0.5rem 20px 0.5rem 0;
+    margin: 0;
+    text-align: right;
+}
+.city{
+    width: 100%;
+    text-align: left;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+}
+.TempImage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2rem;
+}
+.temp{
+    font-size: 5rem;
+    color: white;
+    font-weight: 600;
+    margin: 0;;
+}
+.cloudsImage{
+    width: 150px;
+    height: 150px;
+}
+.dataIcon{
+    width: 30px;
+    height: 30px;
+}
+.Data{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
