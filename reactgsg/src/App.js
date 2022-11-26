@@ -1,12 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LiveCameras from "./components/LiveCameras";
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+  return <LiveCameras />;
 }
 
 export default App;
