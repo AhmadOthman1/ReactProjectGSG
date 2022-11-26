@@ -1,8 +1,15 @@
-import "./App.css";
-import LiveCameras from "./components/LiveCameras";
+
+import logo from './logo.svg';
+import './App.css';
+import WeatherSection from "./components/WeatherSection"
 
 function App() {
-  return;
+  return (
+    <div className="App">
+      <WeatherSection/>
+    </div>
+  );
+
 }
 
 export default App;
