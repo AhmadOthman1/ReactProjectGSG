@@ -1,3 +1,4 @@
+
 import logo from './logo.svg';
 import './App.css';
 import WeatherSection from "./components/WeatherSection"
@@ -8,6 +9,7 @@ function App() {
       <WeatherSection/>
     </div>
   );
+
 }
 
 export default App;

@@ -1,0 +1,29 @@
+.camera_card{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.camera_img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.title{
+    color: white;
+    font-size: 18px;
+}
+.date{
+    color: rgb(172, 171, 171);
+    font-size: 14px;
+}
+.play_cam{
+    position: relative;
+}
+.play_icon{
+    position: absolute;
+    right: 119px;
+    top: 59px;
+}
