@@ -11,13 +11,14 @@ const LiveCameras = () => {
   useEffect(() => {
     axios
       .get(
-        " https://api.openweathermap.org/data/2.5/forecast?q=london&appid=05fa32e8b10697d772e1f5ea410b6221&units=metric "
+        "https://api.openweathermap.org/data/2.5/forecast?q=london&appid=05fa32e8b10697d772e1f5ea410b6221&units=metric"
       )
       .then((response) => {
         console.log(response);
         setCameras(response.data);
       });
   }, []);
+
   const cam = [
     {
       title: "London",
@@ -40,6 +41,7 @@ const LiveCameras = () => {
       date_time: "26 Nov, 7:00AM",
     },
   ];
+  
   return (
     <div className="live_section">
       <p className="live_cameras_title">Live Cameras</p>
