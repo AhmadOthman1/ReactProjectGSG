@@ -39,7 +39,7 @@ function Search({
     <div className={Style.weatherSearch}>    
     <div className={Style.topBanner}>
         <input type="text" className={Style.cityNameInput}d="cityNameInput" placeholder={textPrompt} />
-        <input type="button" className={Style.searchButton} id="search" value={buttonTitle} onclick={MSearch()}/>
+        <input type="button" className={Style.searchButton} id="search" value={buttonTitle} onclick={MSearch}/>
     </div>
     </div>
 
